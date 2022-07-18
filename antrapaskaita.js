@@ -1,14 +1,24 @@
-console.log('sdfsdf');
+[1,5,77].forEach(a => console.log(a));
 
-[1,5,77].forEach(a,i,t) => console.log(t[t.lenght - i - 1]);
+console.log('---------');
 
+[1,5,77].forEach(a => {
+if (a < 4)  {
+    console.log(a)
+}
+})
 
-console.log('----------');
+console.log('---------')
 
-[1,5,77].forEach(a=>console.log(a));
+const mas = [];
 
-const f1 = [1,0,5,77].filter(a => a >4).map(r => r * 10);
+// mas[0] = 'Petras';
+// mas[1] = 'Ieva';
+// mas.push('bebras');
+// mas.unshift('Kurmis');
 
-console.log(fi);
+for (let i = 0; i < 10; i++) {
+mas[i] = rand(7, 77);
+}
 
-
+console.log(mas);
